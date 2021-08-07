@@ -2,10 +2,9 @@
 <mapper namespace="com.example.testtest.dao.TestDAO">
     <select id="getTestData" resultType="com.example.testtest.dto.TestDTO">
         select
-        title,
-        name
+        *
         from
-        DB_TEST
+        test
     </select>
 </mapper>
 
